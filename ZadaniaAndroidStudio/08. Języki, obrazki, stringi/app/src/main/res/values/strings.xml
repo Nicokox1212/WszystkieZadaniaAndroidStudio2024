@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">MultilingualApp</string>
+    <string name="tree_nearby">The tree is nearby</string>
+    <string name="grass_is_green">The grass is green</string>
+    <string name="lewandowski_is_king">Lewandowski is the king</string>
+
+
+    <string name="tree_nearby_pl">Drzewo jest niedaleko</string>
+    <string name="grass_is_green_pl">Trawa jest zielona</string>
+    <string name="lewandowski_is_king_pl">Lewandowski królem jest</string>
+
+
+    <plurals name="number_message">
+        <item quantity="zero">0? That's too little</item>
+        <item quantity="few">x? Almost enough</item>
+        <item quantity="many">x? Enough</item>
+    </plurals>
+</resources>
