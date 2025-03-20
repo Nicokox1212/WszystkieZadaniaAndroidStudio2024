@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         var time : Long = System.currentTimeMillis()
         var sekunda = 0
+        var numer = 0
         lifecycleScope.launch {
             while (true) {
                 binding.textView1.text = sekunda.toString()
@@ -40,6 +41,10 @@ class MainActivity : AppCompatActivity() {
         binding.button2.setOnClickListener{
             time = System.currentTimeMillis()
         }
-        
+        binding.button3.setOnClickListener{
+            numer = numer + 1
+            val time2: Long = System.currentTimeMillis()
+            binding.textView3.text = binding.textView3.text.toString() + "\n"+numer.toString()+":"+ (time2 - time).toString()
+        }
     }
 }
