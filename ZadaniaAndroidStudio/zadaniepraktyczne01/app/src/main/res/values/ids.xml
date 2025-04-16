@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="titleText" type="id" />
+    <item name="emailEditText" type="id" />
+    <item name="passwordEditText" type="id" />
+    <item name="repeatPasswordEditText" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="messageTextView" type="id" />
+</resources>
